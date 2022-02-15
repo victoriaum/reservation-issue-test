@@ -1,0 +1,106 @@
+.menu {
+  align-content: center;
+  margin: 0 auto;
+  width: 90%;
+}
+.indexMenu {
+  font-size: 0.5rem;
+  display: inline-block;
+  cursor: pointer;
+}
+.menuName {
+  display: block;
+  text-align: center;
+  margin: 0.5rem auto;
+  width: 100%;
+  font-weight: bold;
+}
+.menuIcon{
+  display: block;
+  width: 2.8rem;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 0.6rem;
+}
+.indexSchedule {
+  cursor: pointer;
+}
+
+.center {
+  color: black;
+  font-size: 0.7rem;
+  width: 100%;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+.indexContents{
+  background-color: #f8f2ec;
+  /*border-radius: 0rem 0.5rem 0.5rem 0rem;*/
+  padding: 1rem;
+  font-size: 0.7rem;
+  margin: 1rem;
+}
+.indexNotice2 {
+  background-color: #f8f2ec;
+}
+.indexContents>div{
+  line-height: 1rem;
+  margin-bottom: 1rem;
+}
+.indexContentsImg{
+  height: 1.2rem;
+  width: auto;
+  margin-right: 0.5rem;
+}
+.indexContentsTitle{
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.more{
+  float: right;
+  color: #2B2119;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.indexContentsDetail{
+  margin: 0.5rem 0.5rem 0.5rem 0rem;
+  width: 90%;
+}
+.indexContentsDetailInfo1 {
+  background-color: #E48873;
+  border-radius: 0.2rem;
+  margin-right: 0.5rem;
+  padding: 0.3rem;
+  font-weight: bold;
+  color: white;
+}
+.indexContentsDetailInfo2 {
+  background-color: #55705A;
+  border-radius: 0.2rem;
+  margin-right: 0.5rem;
+  padding: 0.3rem;
+  font-weight: bold;
+  color: white;
+}
+.import {
+  font-weight: bold;
+  color: #E48873;
+  font-size: 0.9rem;
+  margin: 0 0.3rem;
+}
+.requesters {
+
+}
+.requestCnt {
+  margin-left: 0.2rem;
+  font-weight: bold;
+  color: #E48873;
+}
+.noticeSubject1 {
+
+}
+.noticeSubject2 {
+  display: block;
+  margin-bottom: 0.5rem;
+}

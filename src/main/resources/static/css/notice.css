@@ -1,0 +1,24 @@
+.center {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 0.2rem;
+}
+table {
+  text-align: center;
+  color: #2B2119;
+}
+#noticeTitle {
+  text-align: left;
+}
+.search {
+  float: right;
+  margin-bottom: 1rem;
+}
+#searchNoticeInput {
+  border: none;
+  border-bottom: solid 0.1px #2B2119;
+}
+.smallImg {
+  width: 0.9rem;
+  height: auto;
+}
