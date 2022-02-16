@@ -30,6 +30,16 @@ public class MainController {
 
 
   @RequestMapping(value = {"/"})
+  public String mainPage() {
+    return "index";
+  }
+
+  @RequestMapping(value = {"/home"})
+  public String home() {
+    return "home";
+  }
+
+  /*@RequestMapping(value = {"/"})
   public String mainPage(HttpServletRequest request) {
     HttpSession httpSession = request.getSession();
     String type = (String)httpSession.getAttribute("loginType");
@@ -38,7 +48,7 @@ public class MainController {
     } else {
       return "index";
     }
-  }
+  }*/
 
   @RequestMapping(value = {"index"})
   public String index() {
