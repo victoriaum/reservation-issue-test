@@ -1,6 +1,6 @@
 package com.example.hello.domain;
 
-import com.system.reservation.web.dto.StudentDto;
+import com.example.hello.web.dto.StudentDto;
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

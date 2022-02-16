@@ -1,17 +1,17 @@
 package com.example.hello.domain;
 
-import com.system.reservation.web.dto.SchedulerDto;
+import com.example.hello.web.dto.SchedulerDto;
 import java.util.Collection;
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-public interface SchedulerRepository extends JpaRepository<com.system.reservation.domain.Scheduler, Long> {
+public interface SchedulerRepository extends JpaRepository<com.example.hello.domain.Scheduler, Long> {
 
   @Query("SELECT s FROM Scheduler s WHERE s.teacher_id=:teacher_id AND s.schedule_date>=:today"
       + " ORDER BY s.schedule_date, s.schedule_start ASC")
-  Collection<com.system.reservation.domain.Scheduler> getTeacherSchedule(@Param("teacher_id") String teacher_id, @Param("today") String today);
+  Collection<com.example.hello.domain.Scheduler> getTeacherSchedule(@Param("teacher_id") String teacher_id, @Param("today") String today);
 
   @Query("SELECT s.schedule_no, s.schedule_start, s.schedule_end, s.schedule_space, s.schedule_attender"
       + " FROM Scheduler s WHERE s.teacher_id=:teacher_id AND s.schedule_date=:today"
